@@ -1,0 +1,10 @@
+- Switch evaluation function to combination of:
+    material: factor*(my stones - their stones)/(total stones + basis)
+    area influence 
+    --> TODO: testing!
+
+- Extend search in non-quiet position (i.e. forced captures?)
+    --> TODO!
+
+- Implement non-zero-sum evaluation function (prefering less stones on the board)
+- Implement collision-free transposition table (interesting!)
